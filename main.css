@@ -2,3 +2,82 @@
   margin: 0;
   padding: 0;
 }
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  color: white;
+  font-family: sans-serif;
+}
+
+.navigation {
+  color: rgb(149, 235, 212);
+  text-decoration: none;
+}
+
+.main {
+  background: #222222;
+  align-items: center;
+}
+
+.welcome {
+  height: 80vh;
+  max-width: 400px;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+.description {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+#adjective {
+  font-size: 4rem;
+  font-style: italic;
+  color: rgb(228, 250, 243);
+  margin-bottom: 1rem;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.hello {
+  height: 20vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  background: rgb(228, 250, 243);
+}
+
+.typewrite > .wrap {
+  padding-right: 7px;
+  border-right: 0.08em solid #fff;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(74, 151, 134, 0.7);
+  font-size: 1.5rem;
+}

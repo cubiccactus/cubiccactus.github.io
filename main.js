@@ -1,3 +1,3 @@
-"use strict";
-
-console.log("template script");
+window.onload = () => {
+  writerStart();
+};
