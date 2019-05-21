@@ -1,2 +1,8 @@
-# cubiccactus.github.io
-landing for cubiccactus
+# landing
+
+## contributing
+
+```
+npm i
+npm start
+```
