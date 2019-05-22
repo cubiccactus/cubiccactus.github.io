@@ -2,3 +2,133 @@
   margin: 0;
   padding: 0;
 }
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  z-index: 3;
+}
+
+.navigation {
+  color: rgb(149, 235, 212);
+  text-decoration: none;
+}
+
+.main {
+  background: #222222;
+  align-items: center;
+}
+
+.welcome {
+  height: 80vh;
+  max-width: 400px;
+}
+
+.logo {
+  height: 66vh;
+  position: fixed;
+  bottom: 22vh;
+  right: 10vw;
+}
+
+.logoLeft {
+  right: unset;
+  left: 0;
+}
+
+.description {
+  font-size: 3.5rem;
+}
+
+.headers {
+  position: absolute;
+  bottom: 20vh;
+  left: 10vw;
+}
+
+.adjective {
+  font-size: 14vh;
+  font-weight: 100;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  pointer-events: none;
+  color: white;
+  /* font-style: italic; */
+}
+
+.title {
+  font-size: 10vh;
+}
+
+.screenTitleLeft {
+  margin-left: 10vw;
+  margin-top: 5vw;
+}
+
+.screenTitleRight {
+  text-align: right;
+  margin-right: 10vw;
+  margin-top: 5vw;
+}
+
+.hello {
+  height: 20vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  position: relative;
+  z-index: 1;
+  background: white;
+}
+
+.about > *,
+.works > * {
+  color: #222222;
+}
+
+.us {
+  background: #222222;
+}
+
+.works {
+  position: relative;
+  background: white;
+  z-index: 1;
+}
+
+.typewrite > .wrap {
+  padding-right: 10px;
+  border-right: 0.05em solid #fff;
+}
+
+footer {
+  position: fixed;
+  z-index: 3;
+  bottom: -10vh;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222222;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 0px -5px 0px 2px rgba(34, 34, 34, 1);
+  -moz-box-shadow: 0px -5px 0px 2px rgba(34, 34, 34, 1);
+  box-shadow: 0px -5px 0px 2px rgba(34, 34, 34, 1);
+}
