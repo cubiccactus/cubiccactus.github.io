@@ -6,21 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>cubic cactus</title>
     <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 200px) and (max-width: 800px)"
+      href="mobile.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap"
+      rel="stylesheet"
+    />
     <script src="typewriter.js"></script>
     <script src="main.js"></script>
   </head>
   <body>
     <div class="main screen">
       <div class="welcome container">
-        <img class="logo" src="assets/cactus.svg" alt="main logo" />
-        <div class="title container">
-          <h1 id="adjective" class="text description">
+        <img class="logo" src="assets/cactus.png" alt="main logo" />
+        <div class="headers container">
+          <h1 class="text description adjective">
             <a
               href=""
-              id="adjective"
-              class="typewrite"
+              class="typewrite adjective"
               data-period="1000"
-              data-type='[ "stunning", "creative", "awesome", "amazing" ]'
+              data-type='[ "stunning", "creative", "awesome", "amazing", "impressive", "smashing", "dazzling", "exciting", "inspiring" ]'
             >
               <span class="wrap"></span>
             </a>
@@ -32,9 +40,17 @@
         </div>
       </div>
     </div>
-    <div class="about screen"></div>
+    <div class="about screen">
+      <h1 class="text description title screenTitleLeft">about us</h1>
+    </div>
+    <div class="us screen">
+      <h1 class="text description title screenTitleRight">who are we</h1>
+    </div>
+    <div class="works screen">
+      <h1 class="text description title screenTitleLeft">our work</h1>
+    </div>
     <footer>
-      <a class="navigation" href="">say hello 👋</a>
+      <h2 class="text">amazing footer</h2>
     </footer>
   </body>
 </html>
