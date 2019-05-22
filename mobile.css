@@ -1,0 +1,27 @@
+.logo {
+  height: unset;
+  bottom: unset;
+  right: unset;
+  width: 90vw;
+  max-width: 350px;
+  left: 0;
+  top: 5vh;
+}
+
+.headers {
+  bottom: 10vh;
+  left: 5vw;
+}
+
+.description {
+  font-size: 2.5rem;
+}
+
+.adjective {
+  font-size: 10vh;
+}
+
+.logoLeft {
+  opacity: 0.3;
+  top: 20vh;
+}

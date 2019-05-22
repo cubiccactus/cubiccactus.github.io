@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background: #222222;
+}
+
 .screen {
   width: 100vw;
   height: 100vh;
@@ -17,7 +21,9 @@
 
 .text {
   color: white;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  z-index: 3;
 }
 
 .navigation {
@@ -36,32 +42,50 @@
 }
 
 .logo {
-  height: 60vh;
-  width: 100vw;
+  height: 66vh;
   position: fixed;
-  top: 0;
+  bottom: 22vh;
+  right: 10vw;
+}
+
+.logoLeft {
+  right: unset;
   left: 0;
-  border: 2px solid red;
 }
 
 .description {
-  font-weight: 100;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
-.title {
+.headers {
   position: absolute;
-  bottom: 15vh;
-  left: 5vw;
+  bottom: 20vh;
+  left: 10vw;
 }
 
-#adjective {
-  font-size: 10vh;
-  font-style: italic;
-  color: rgb(228, 250, 243);
+.adjective {
+  font-size: 14vh;
+  font-weight: 100;
   margin-bottom: 1rem;
   text-decoration: none;
   pointer-events: none;
+  color: white;
+  /* font-style: italic; */
+}
+
+.title {
+  font-size: 10vh;
+}
+
+.screenTitleLeft {
+  margin-left: 10vw;
+  margin-top: 5vw;
+}
+
+.screenTitleRight {
+  text-align: right;
+  margin-right: 10vw;
+  margin-top: 5vw;
 }
 
 .hello {
@@ -72,22 +96,43 @@
 }
 
 .about {
-  background: rgb(228, 250, 243);
+  position: relative;
+  z-index: 1;
+  background: white;
+}
+
+.about > *,
+.works > * {
+  color: #222222;
+}
+
+.us {
+  background: #222222;
+}
+
+.works {
+  position: relative;
+  background: white;
+  z-index: 1;
 }
 
 .typewrite > .wrap {
-  padding-right: 7px;
-  border-right: 0.08em solid #fff;
+  padding-right: 10px;
+  border-right: 0.05em solid #fff;
 }
 
 footer {
   position: fixed;
-  bottom: -7vh;
-  height: 7vh;
+  z-index: 3;
+  bottom: -10vh;
+  height: 10vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(74, 151, 134, 0.7);
+  background: #222222;
   font-size: 1.5rem;
+  -webkit-box-shadow: 0px -5px 0px 2px rgba(34, 34, 34, 1);
+  -moz-box-shadow: 0px -5px 0px 2px rgba(34, 34, 34, 1);
+  box-shadow: 0px -5px 0px 2px rgba(34, 34, 34, 1);
 }
